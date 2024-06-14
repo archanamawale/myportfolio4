@@ -1,0 +1,28 @@
+nav {
+    float: center;
+    padding-top: 25px;
+
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+    display: inline-flex;
+    margin-left: 30px;
+}
+nav ul li a {
+    color: var(--bs-dark);
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: var(--bs-info);
+}
+.social-icon{
+    color: var(--bs-dark);
+    font-size: 24px;
+    margin: 0 10px;
+}
+
