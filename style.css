@@ -1,3 +1,62 @@
+#home{
+    padding: 10px 10px 10px 10px;
+   
+}
+
+.sticky-top {
+    background-color: var(--bs-light);
+}
+
+#hstyle {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+#about {
+  width: 100%; 
+  height: auto;
+  background-color: black;
+  border: none; 
+  text-align: center;
+}
+
+#intro{
+    font-size: 72px;
+    font-family:Copperplate, Papyrus, fantasy;
+}
+
+#imgtcs{
+  height: auto;
+}
+
+#experience{
+    padding-bottom: 30px;
+}
+
+.heading{
+    color: var(--bs-dark);
+    font-weight: bold;
+    text-align: center;
+}
+
+.carousel-inner {
+  height: auto;
+}
+.carousel-caption {
+ position: absolute;
+}
+
+#achievements{
+  margin-top: 15px;
+}
+
+li{
+  margin-top: 25px;
+  list-style: none;
+}
+
+
 nav {
     float: center;
     padding-top: 25px;
