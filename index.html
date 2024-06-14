@@ -10,68 +10,13 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
-<style>
-
-#home{
-    padding: 10px 10px 10px 10px;
-}
-
-#hstyle {
-  font-family: Brush Script MT, Brush Script Std, cursive;
-  font-size: 70px;
-  text-align: center;
-}
-
-#about {
-  width: 100%; 
-  height: auto;
-  background-color: black;
-  border: none; 
-  text-align: center;
-}
-
-#intro{
-    font-size: 72px;
-    font-family:Copperplate, Papyrus, fantasy;
-}
-
-#imgtcs{
-  height: auto;
-}
-
-.heading{
-    color: var(--bs-dark);
-    font-weight: bold;
-    text-align: center;
-}
-
-
-.carousel-inner {
-  height: auto;
-}
-.carousel-caption {
- padding-bottom: 5rem;
- font-size: xx-small;
- position: absolute;
-}
-
-#achievements{
-  margin-top: 15px;
-}
-
-li{
-  margin-top: 25px;
-  list-style: none;
-}
-
-</style>
 
 <body>
 
     
 <!--Navigation Bar-->
 <div id="home">
-  <div class="sticky-top" style="background-color: var(--bs-light); padding-left: 10px; padding-right: 10px;">
+  <div class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
         <h5 class="fs-5 fw-bold text-dark"> <a class="nav-link" href="#about"><img src="i-am.png"> &nbsp;MY PORTFOLIO</h5></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
@@ -117,7 +62,7 @@ li{
                   <div class="col-md-6">
                     <div class="card-body h-100">
                       <p class="card-title text-light fw-bold fst-italic" id="intro">Hi! I'm <br>Archana Mawale</p>
-                      <p class="card-text text-light fs-5 fst-italic" style="text-align: center;">A computer science graduate, self-driven, indefatigable, and fondly anticiapting using my analytical and technical skills to serve the current organization, I am working in, along with solving and accepting challenges innovatively.</p>
+                      <p class="card-text text-light fs-5 fst-italic" style="text-align: center;">A computer science graduate, self-driven, indefatigable, and fondly anticipating using my analytical and technical skills to serve the current organization, I am working in, along with solving and accepting challenges innovatively.</p>
                     </div>
                 </div>
                     <div class="col-md-6">
@@ -152,7 +97,7 @@ li{
 
   <!--EXPERIENCE-->
 
-  <div class="container-fluid" id="experience" style="padding-bottom: 30px;">
+  <div class="container-fluid" id="experience">
     <h2 id="hstyle"> Experience... </h2>
 
     <ul class="list-group">
@@ -220,26 +165,25 @@ li{
       <div class="carousel-item active">
         <img src="carousel1.jpg" class="d-block w-100 h-100" alt="...">
         <div class="carousel-caption">
-          <h5 class="fs-3 fw-bold fst-italic">SAMARITAN- YOUR NEEDMATE</h5>
-          <p class="card-text fs-5">An android application that aims to aid people in need with its functionalities like sending current location to your emergency contacts using text message or via whatsapp or contacting them directly. Also, using this app, one can locate themselves, nearby police stations, hospitals, etc., in just one click.</p>
-                              <a href="https://archanamawale.github.io/my_po/" target="_blank" class="btn btn-primary" id="button">Click here to view the project</a>
+          <p class="fs-3">My first android application to help people in need with it's salient features...</p>
+          <h1 class="fw-bolder fst-italic">" SAMARITAN- YOUR NEEDMATE "</h1>
+         <a href="https://archanamawale.github.io/my_po/" target="_blank" class="btn btn-primary fw-bold mt-3">Click here to view the project</a>
           </div>
       </div>
       <div class="carousel-item">
         <img src="carousel2.jpg" class="d-block w-100 h-100" alt="...">
         <div class="carousel-caption">
-          <h5 class="fs-3 fw-bold fst-italic">MY PORTFOLIO</h5>
-          <p class="card-text fs-5">Created a portfolio website using my skills on HTML and CSS. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                                                  <a href="https://archanamawale.github.io/my_po/" target="_blank" class="btn btn-primary">Click here to view the project</a>
+          <p class="fs-3">My first portfolio website using my Front-end dev skills...</p>
+          <h1 class="fw-bolder fst-italic">" MY PORTFOLIO  "</h1>
+          <a href="https://archanamawale.github.io/my_po/" target="_blank" class="btn btn-primary fw-bold mt-3">Click here to view the project</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="carousel22.jpg" class="d-block w-100 h-100" alt="...">
         <div class="carousel-caption">
-          <h5 class="fs-3 fw-bold fst-italic">ANNOUNCEMENTS</h5>
-          <p class="card-text fs-5">The announcements feature is introduced to aid users stay informed with crucial updates, information and warnings related to the Group Directory application, ensuring you never miss a beat. 
-            This platform, only visible to the administrators, allows to create, edit, and remove announcements promptly, ensuring that our users are always up-to-date with the latest development activities- maintainence, patching, implementing changes, and more.</p>
-            <a href="https://archanamawale.github.io/announcements/" target="_blank" class="btn btn-primary">Click here to view the project</a>
+          <p class="fs-3">The announcement portal's help guide to aid the end users...</p>
+          <h1 class="fw-bolder fst-italic">" ANNOUNCEMENTS "</h1>
+         <a href="https://archanamawale.github.io/announcements/" target="_blank" class="btn btn-primary fw-bold mt-3">Click here to view the project</a>
     </div>
       </div>
     </div>
@@ -258,7 +202,7 @@ li{
 
   <!--Technical Skills-->
 
-  <div id="technical" class="container" style="padding-top: 20px;">
+  <div id="technical" class="container" style="padding-top: 20px; padding-bottom: 60px;">
 
     <h2 class="heading" id="techskills">TECHNICAL SKILLS</h2><br>
 
